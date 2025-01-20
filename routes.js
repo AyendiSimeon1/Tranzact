@@ -1,6 +1,5 @@
-import express from 'expres';
-import WalletService from './walletService';
 const express = require('express');
+const WalletService = require('./walletService');
 const router = express.Router();
 const walletService = new WalletService();
 

@@ -1,4 +1,4 @@
-import { Wallet,  Transaction, User } from './models';
+const { Wallet,  Transaction, User } = require('./models');
 
 class WalletService {
     async getAllUsers() {

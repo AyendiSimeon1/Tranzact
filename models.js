@@ -98,6 +98,12 @@ const WalletType = mongoose.model('WalletType', walletTypeSchema);
 const Wallet = mongoose.model('Wallet', walletSchema);
 const Transaction = mongoose.model('Transaction', transactionSchema);
 
+module.exports = {
+    User,
+    WalletType,
+    Wallet,
+    Transaction
+};
 
 
 
